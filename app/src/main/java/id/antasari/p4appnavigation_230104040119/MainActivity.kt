@@ -10,8 +10,9 @@ class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        // Semua UI Compose dipanggil dari sini
         setContent {
+            // Memanggil NavGraph sebagai
+            // navigasi utama aplikasi
             NavGraph()
         }
     }
